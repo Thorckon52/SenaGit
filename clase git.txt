@@ -1,0 +1,20 @@
+git init: crea un nuevo repositorio de git.
+git status: ver el estado del directorio de trabajo
+git add: Añade los cambios del directorio en el area de preparacion.
+git commit: Proteger los cambios.
+git commit -m xxxxx: Saltarnos la parte del editor.
+git config --global user.email xxxxx: Asociar correo
+git config --global user.name xxxxx: Asociar usuario
+git log: Ver informacion sobre commit.
+git checkout - xxxxxx: Descarta los cambios del directorio local.
+git diff xxxxxx: Muestra las diferencias.
+git branch: Muestra las ramas (verde la elegida)
+git branch nombreRama: Crear la rama
+git checkout xxxxxx: Cambiar a la rama
+git pull: Actualizar el repositorio a la version mas reciente.
+git push
+git merge: Unir dos ramas
+git diff xrama yrama: Comparar ramas.
+-------------
+git fetch origin: Recupera la version anterior.
+git reset --hard origin/master: Deshace todos los cambios locales y los commits
